@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Basic styling */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* ... (previous styles) ... */
+
+/* Style for the projects */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* ... (previous styles) ... */
+
+/* Style for the project cards */
+.project-card2 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.project-card2:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.project-card2 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+/* ... (remaining styles) ... */
+
+
+/* ... (remaining styles) ... */
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
