@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 414px) /* iPhone SE */ {
+  .navbar {
+    padding: 10px;
+  }
+
+  .logo {
+    max-width: 80px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 828px) /* iPhone XR and similar */ {
+  .navbar {
+    padding: 12px;
+  }
+
+  .logo {
+    max-width: 90px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 7px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 844px) /* iPhone 12 Pro and similar */ {
+  .navbar {
+    padding: 14px;
+  }
+
+  .logo {
+    max-width: 95px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 8px 0;
+    text-align: center;
+  }
+}
